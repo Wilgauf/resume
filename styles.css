@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+
+  font-size: 12px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.award_subject{
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.semi-bold-left{
+  font-weight: 550;
+  color: #fff;
+  font-size: 14px;
+}
+
+.edu-detail{
+  color: #daf0f8;
+}
+.name{
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.resume {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  /* Margin is the frame around the resume */
+}
+
+.resume .resume_left {
+  width: 280px;
+  background: #0aa0d6fa;
+}
+
+.resume .resume_left .resume_profile {
+  width: 100%;
+  height: 280px;
+}
+
+.resume .resume_left .resume_profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.resume .resume_left .resume_content {
+  padding: 0 25px;
+}
+
+.resume .title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.resume .resume_left .title {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 10px;
+  margin-bottom: 10px;
+  color:#fff;
+}
+.resume .award_title{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 550;
+  font-size: 16px;
+  color: #daf0f8;
+}
+
+
+
+.resume .resume_left .bold {
+  color: #fff;
+}
+
+.resume .resume_left .regular {
+  color: #b1eaff;
+  font-weight: 400;
+  font-size: 15px;
+  
+}
+
+.resume .resume_left .resume_content .resume_info .intro{
+  padding: 10px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+.resume .resume_left .detail{
+  color: #b1eaff;
+  font-weight: 450;
+}
+
+.resume .resume_item {
+  padding: 12px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+.resume .resume_about{
+  line-height: 20px;
+  
+}
+
+.resume .resume_left .resume_item:last-child,
+.resume .resume_right .resume_item:last-child {
+  border-bottom: 0px;
+}
+.resume .resume_left ul {
+  padding-top: 10px;
+}
+.resume .resume_left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  line-height: 16px;
+}
+
+.resume .resume_left ul li:last-child {
+  margin-bottom: 0;
+}
+
+
+.resume .resume_left ul li .data {
+  color: #b1eaff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: initial;
+  line-height: 12px;
+}
+
+.resume .resume_left .resume_skills ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  color: #b1eaff;
+  grid-template-columns: 1fr 1fr;
+}
+.resume .resume_left .resume_skills ul li{
+  min-width: 50%;
+}
+
+.resume .resume_right {
+  width: 75%;
+  background: #fff;
+  padding: 25px;
+}
+
+.resume .resume_right .bold {
+  color: #0bb5f4;
+}
+
+.resume .resume_right .resume_work ul,
+.resume .resume_right .resume_education ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.resume .resume_right ul li {
+  position: relative;
+}
+.resume .resume_right ul li .title{
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  color: #0bb5f4;
+}
+.resume .resume_right ul li .job_info{
+  font-size: 12px;
+  font-weight: 200;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.resume .resume_right ul li .date {
+
+  margin-top: 1px;
+  margin-bottom: 2px;
+  text-align: right;
+}
+.resume .resume_right .subtitle{
+  font-size: 15px;
+}
+
+.resume .resume_right ul li .info {
+  margin-bottom: 20px;
+  font-weight: 450;
+}
+
+.resume .resume_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+.resume .resume_right .resume_work ul li:before,
+.resume .resume_right .resume_education ul li:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+}
+
+.resume .resume_right .resume_work ul li:after,
+.resume .resume_right .resume_education ul li:after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 65px;
+  background: #0bb5f4;
+}
+
+.resume .resume_right .resume_hobby ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume .resume_right .resume_hobby ul li {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #0bb5f4;
+  border-radius: 50%;
+  position: relative;
+  color: #0bb5f4;
+}
+
+.resume .resume_right .resume_hobby ul li i {
+  font-size: 30px;
+}
+
+.resume .resume_right .resume_hobby ul li:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: -52px;
+  width: 50px;
+  height: 2px;
+  background: #0bb5f4;
+}
+
+
