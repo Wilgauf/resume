@@ -42,7 +42,7 @@ body {
   color: #daf0f8;
 }
 .name{
-  color: #fff;
+  color: #d64806;
   font-weight: 600;
   font-size: 24px;
   text-transform: uppercase;
@@ -101,9 +101,9 @@ body {
 }
 
 .resume .resume_left .regular {
-  color: #b1eaff;
-  font-weight: 400;
-  font-size: 15px;
+  color: #d64806;
+  font-weight: bold;
+  font-size: 14px;
   
 }
 
@@ -113,6 +113,9 @@ body {
 }
 .resume .resume_left .detail{
   color: #b1eaff;
+  font-weight: 450;
+}
+.resume .resume_left .data_list{
   font-weight: 450;
 }
 
@@ -158,6 +161,7 @@ body {
   margin-bottom: 10px;
   color: #b1eaff;
   grid-template-columns: 1fr 1fr;
+  font-weight: 450;
 }
 .resume .resume_left .resume_skills ul li{
   min-width: 50%;
